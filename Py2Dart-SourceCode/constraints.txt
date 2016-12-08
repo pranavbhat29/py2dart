@@ -1,0 +1,24 @@
+---- Constraints on use of this translator --------------------------
+
+1) Only those types of for loops are allowed where it is of the form,
+	for <variable> in range(<min>,<max>):
+	where <max> is necessary, while <min> by default is 0
+2) Other forms of for loops are not allowed.
+3) The variables and function names are to be represented in regular form or hungarian notation,
+	In regular form w/o hungarian notation , the type of the variable is assumed to be 'var'(generic)
+	In hungarian notation, 
+		--'n' means 'int, 
+		--'c' means char, 
+		--'d' means double,
+		--'s' means string
+4) 'If' conditions are not designed to have an else, since it is in beta stage.
+5) Only these commands are allowed,
+	'If',
+	'while',
+	'for',
+	'def',
+	'print',
+	'mathematical expresions'
+6) Every variable gets declared automatically in the default type, based on the name of the variable
+7) These are default types, and if the translator couldn't learn which type of
+	the variable it is, it declares as 'var' generic type 

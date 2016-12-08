@@ -1,0 +1,13 @@
+----> Welcome to the Help document  <-------
+
+1) Type the command on the shell after the '>>> ' mark, and it is assumed that the syntax is proper.
+2) If a command is of multiple lines, then keep typing the lines one by one and end it with a "|" sign
+	Eg: Say the for loop :
+	>> Type - for i in range(5):
+	# Now the translator will find out that this will span for multiple lines
+	# and keep accepting the inputs each in a seperate line, until a new line
+	# with only '$' sign is not present.
+3) It is better to avoid nesting of loops and conditional statements since this tool is still in the beta stage, even though the working of these is done, but a successful output is not guaranteed.
+4) Only one command or one block is allowed at a time.
+5) Type 'help','developer_details' or 'exit' anytime the '>>> ' prompt arrives.
+ 
